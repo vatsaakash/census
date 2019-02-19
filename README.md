@@ -1,29 +1,29 @@
 #Census of India
 
 Introduction to Project :-
-•	A project was assigned to the students of Chandigarh University as a Summer Training Program.
-•	We were assigned the topic of Census of India to do as our project.
-•	It was really a very interesting topic as while making the project we had gone through many ups and downs while completing the project.
-•	The project starts form the webpage in which you’ll see the logo of of Indian Government just at the right hand side it’s written as 
-Office of the Registrar General & Census Commissioner, India
-Government of India
-and just righthand side of that is given the links for various social networking sites of Census of India like of Facebook, Twitter and Youtube.
-•	Below all these, navigation menu is provided with various options like Home, About Us, Census Organisation, Submit Your Form, Acts and Rules, Current Population of World, Contact Us, Meet the Developers and many more.
-•	About Us section contains all the information related to Census of India.
-•	Census Organisation section contains the details about the working body of Indian Census.
-•	Acts and Rules section contains all the acts and rules(laws) made for the proper conduct of Census of India. It also includes various PDFs related to the same which one can download on his/her PC.
-•	Current Population of World contains the population of the world which always keep on increasing as time increases.
-•	Contact Us section provides the contact details of the official bodies of the Census of India.
-•	Meet the developers section contains all the details of us, i.e. the one who made the project.
-•	Submit your form is the section in which one who wish to submit his/her details along with the family member details can do so and all the details will be saved in the database.
+•	A project was assigned to the students of Chandigarh University as a Summer Training Program.<br>
+•	We were assigned the topic of Census of India to do as our project.<br>
+•	It was really a very interesting topic as while making the project we had gone through many ups and downs while completing the project.<br>
+•	The project starts form the webpage in which you’ll see the logo of of Indian Government just at the right hand side it’s written as <br>
+Office of the Registrar General & Census Commissioner, India<br>
+Government of India<br>
+and just righthand side of that is given the links for various social networking sites of Census of India like of Facebook, Twitter and Youtube.<br>
+•	Below all these, navigation menu is provided with various options like Home, About Us, Census Organisation, Submit Your Form, Acts and Rules, Current Population of World, Contact Us, Meet the Developers and many more.<br>
+•	About Us section contains all the information related to Census of India.<br>
+•	Census Organisation section contains the details about the working body of Indian Census.<br>
+•	Acts and Rules section contains all the acts and rules(laws) made for the proper conduct of Census of India. It also includes various PDFs related to the same which one can download on his/her PC.<br>
+•	Current Population of World contains the population of the world which always keep on increasing as time increases.<br>
+•	Contact Us section provides the contact details of the official bodies of the Census of India.<br>
+•	Meet the developers section contains all the details of us, i.e. the one who made the project.<br>
+•	Submit your form is the section in which one who wish to submit his/her details along with the family member details can do so and all the details will be saved in the database.<br>
 
 Software Requirements / Specifications:-
-1.	XAMPP Server
-2.	Web Browser (Chrome)
-3.	Brackets
-4.	Notepad ++
-5.	MS WORD
-6.	Notepad  
+1.	XAMPP Server<br>
+2.	Web Browser (Chrome)<br>
+3.	Brackets<br>
+4.	Notepad ++<br>
+5.	MS WORD<br>
+6.	Notepad<br>
 
  
 Tools & Technology Used :-
