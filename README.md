@@ -1,4 +1,5 @@
-#Census of India
+# Census of India
+___
 
 Introduction to Project :-
 •	A project was assigned to the students of Chandigarh University as a Summer Training Program.<br>
