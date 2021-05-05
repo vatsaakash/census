@@ -1,0 +1,218 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body background="images/bg.jpg">
+   <style>
+       .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+       body{
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+       }
+       input{
+           background-color: lightblue;
+       }
+       .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+    </style>
+
+	<table width="100%" align="left">
+        <tr>
+            <td><img src="images/satya.jpg" height="200px" width="300px"></td>
+            <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b><h1>Office of the Registrar General & Census Commissioner, India</b></h1>
+<h2>Ministry of Home Affairs,<br></h2>
+                <h3>Government of India</h3>
+                <td><a href="https://www.facebook.com/public/Census-India"><img src="images/fb.png" alt="fb page" title="Facebook Page" height="30px" width="30px"></a></td>
+                <td><a href="https://twitter.com/censusindia"><img src="images/twitter.png" title="Twitter Page" height="30px" width="30px"></a></td>
+                <td><a href="https://www.youtube.com/channel/UCePuVdSS_exNkYSV2RCzDjw"><img src="images/youtube.png" height="30px" width="30px" title="Youtube Channel"></a></td>
+    </table>
+    <hr>
+    <div class="container"><p>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="http://www.censusindia.gov.in/pca/Searchdata.aspx">Population Finder 2011</a><br>
+  <a href="http://www.censusindia.gov.in/DigitalLibrary/Archive_home.aspx">Census Digital Library</a><br>
+  <a href="http://www.censusindia.gov.in/2011census/dchb/DCHB.html">District Census Handbook</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/mccd.html">Medical Certification of Cause of Death</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/Sample_Registration_System.html">SRS Publications</a><br>
+  <a href="http://www.censusindia.gov.in/2011census/workstation.html">Data Dissemination Unit</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/CensusInfo.html">Census Info</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/mccd.html">Media/News</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/Archive.html">Archive</a><br>
+  <a href="developers.html">Know About the Developers</a><br>
+</div>
+&emsp;&emsp;<span style="font-size:30px;cursor:pointer;color:yellow;" onclick="openNav()">&#9776; </span>
+        &emsp;&emsp;&emsp;&emsp;<a href="index.html" target="_blank">Home</a>&emsp;&emsp;&emsp;
+        <a href="src/aboutus.html" target="_blank">About Us</a>&emsp;&emsp;&emsp;
+        <a href="src/censusorganisation.html" target="_blank">Census Organisation</a>&emsp;&emsp;&emsp;
+        <a href="src/form.html" target="_blank">Submit Your Form</a>&emsp;&emsp;&emsp;
+        <a href="src/actsandrules.html" target="_blank">Acts and Rules</a>&emsp;&emsp;&emsp;
+        <a href="src/population.html" target="_blank">Current Population of World</a>&emsp;&nbsp;&emsp;
+        <a href="src/contactus.html" target="_blank">Contact Us</a>
+        &emsp;
+    </div>
+    <STYLE>
+        .container
+        {
+            margin-top: 5px;
+            padding: 15px;
+            border: solid;
+            border-color: rgb(25,190,3);
+            border-width:thick;
+            border-radius: 25px;
+            background-color: #000000;
+        }
+    .container a
+        {
+            color:rgb(235,190,0);
+            padding: 10px;
+            font-size: 20px;
+            display: inline-block;
+        }
+        .container a:hover{
+            background-color: green;
+            color: red;
+            display:inline-block;
+        }
+        .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+    </STYLE>
+    <center>
+    <script type="text/javascript">
+
+/*
+* World Populution Counter - By JavaScript Kit (http://www.javascriptkit.com)
+* Based on code by Adam Brown
+* This notice MUST stay intact for use
+* Visit JavaScript Kit (http://www.javascriptkit.com) for this script and more
+*/
+
+function maind(){
+	startdate = new Date()
+	now(startdate.getYear(),startdate.getMonth(),startdate.getDate(),startdate.getHours(),startdate.getMinutes(),startdate.getSeconds())
+}
+
+
+function ChangeValue(number,pv){
+	numberstring =""
+	var j=0
+	var i=0
+	while (number > 1)
+	 {
+
+	    numberstring = (Math.round(number-0.5) % 10) + numberstring
+	    number= number / 10
+	    j++
+	    if (number > 1 && j==3) {
+			numberstring = "," + numberstring
+			j=0}
+	    i++
+	 }
+
+	 numberstring=numberstring
+
+if (pv==1) {document.getElementById("worldpop").innerHTML=numberstring }
+}
+
+
+function now(year,month,date,hours,minutes,seconds){
+startdatum = new Date(year,month,date,hours,minutes,seconds)
+
+var now = 5600000000.0
+var now2 = 5690000000.0
+var groeipercentage = (now2 - now) / now *100
+var groeiperseconde = (now * (groeipercentage/100))/365.0/24.0/60.0/60.0
+nu = new Date ()
+schuldstartdatum = new Date (96,1,1)
+secondenoppagina = (nu.getTime() - startdatum.getTime())/1000
+totaleschuld= (nu.getTime() - schuldstartdatum.getTime())/1000*groeiperseconde + now
+ChangeValue(totaleschuld,1);
+
+
+timerID = setTimeout("now(startdatum.getYear(),startdatum.getMonth(),startdatum.getDate(),startdatum.getHours(),startdatum.getMinutes(),startdatum.getSeconds())",200)
+}
+
+window.onload=maind
+</script>
+<br><br><br><br><br><br><br><br><br><br>
+<p align="center"><h1><b>Current world population (estimated): <span id="worldpop" style="font-weight: bold"></span></h1></b></p>
+<table>
+    <tr>
+        <td><a href="index.html"><button class="button"><< Go Back</button></a></td>
+    </tr>
+</table>
+</center><br><br><br><br><br><br><br><br>
+   <hr>
+   <script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+    </body>
+</html>

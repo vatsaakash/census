@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body background="images/bg.jpg">
+   <style>
+       .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+       body{
+           background-repeat: no-repeat;
+           background-position: center;
+           background-size: cover;
+       }
+       input{
+           background-color: lightblue;
+       }
+       .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+    </style>
+    <table width="100%" align="left">
+        <tr>
+            <td><img src="images/satya.jpg" height="200px" width="300px"></td>
+            <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b><h1>Office of the Registrar General & Census Commissioner, India</b></h1>
+<h2>Ministry of Home Affairs,<br></h2>
+                <h3>Government of India</h3>
+                <td><a href="https://www.facebook.com/public/Census-India"><img src="images/fb.png" alt="fb page" title="Facebook Page" height="30px" width="30px"></a></td>
+                <td><a href="https://twitter.com/censusindia"><img src="images/twitter.png" title="Twitter Page" height="30px" width="30px"></a></td>
+                <td><a href="https://www.youtube.com/channel/UCePuVdSS_exNkYSV2RCzDjw"><img src="images/youtube.png" height="30px" width="30px" title="Youtube Channel"></a></td>
+    </table>
+    <hr>
+    <div class="container">
+       <p>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="http://www.censusindia.gov.in/pca/Searchdata.aspx">Population Finder 2011</a><br>
+  <a href="http://www.censusindia.gov.in/DigitalLibrary/Archive_home.aspx">Census Digital Library</a><br>
+  <a href="http://www.censusindia.gov.in/2011census/dchb/DCHB.html">District Census Handbook</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/mccd.html">Medical Certification of Cause of Death</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/Sample_Registration_System.html">SRS Publications</a><br>
+  <a href="http://www.censusindia.gov.in/2011census/workstation.html">Data Dissemination Unit</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/CensusInfo.html">Census Info</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/mccd.html">Media/News</a><br>
+  <a href="http://www.censusindia.gov.in/2011-Common/Archive.html">Archive</a><br>
+  <a href="developers.html">Know About the Developers</a><br>
+</div>
+&emsp;&emsp;<span style="font-size:30px;cursor:pointer;color:yellow;" onclick="openNav()">&#9776; </span>
+        &emsp;&emsp;&emsp;&emsp;<a href="index.html" target="_blank">Home</a>&emsp;&emsp;&emsp;
+        <a href="src/aboutus.html" target="_blank">About Us</a>&emsp;&emsp;&emsp;
+        <a href="src/censusorganisation.html" target="_blank">Census Organisation</a>&emsp;&emsp;&emsp;
+        <a href="src/form.html" target="_blank">Submit Your Form</a>&emsp;&emsp;&emsp;
+        <a href="src/actsandrules.html" target="_blank">Acts and Rules</a>&emsp;&emsp;&emsp;
+        <a href="src/population.html" target="_blank">Current Population of World</a>&emsp;&nbsp;&emsp;
+        <a href="src/contactus.html" target="_blank">Contact Us</a>
+        &emsp;
+    </div>
+    <STYLE>
+        .container
+        {
+            margin-top: 5px;
+            padding: 15px;
+            border: solid;
+            border-color: rgb(25,190,3);
+            border-width:thick;
+            border-radius: 25px;
+            background-color: #000000;
+        }
+    .container a
+        {
+            color:rgb(235,190,0);
+            padding: 10px;
+            font-size: 20px;
+            display: inline-block;
+        }
+        .container a:hover{
+            background-color: green;
+            color: red;
+            display:inline-block;
+        }
+        .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+    </STYLE>
+    <h1 align="center"><b>About and History of Indian Census</b></h1>
+    <p>The decennial Census of India has been conducted 15 times, As of 2011. While it has been conducted every 10 years, beginning in 1872, the first complete census was taken in the year 1881.Post 1949, it has been conducted by the Registrar General and Census Commissioner of India under the Ministry of Home Affairs, Government of India. All the census since 1951 are conducted under 1948 Census of India Act. The last census was held in 2011 and next census will held in 2021.</p>
+    <p>The Harappa and Mohan-jo-daro excavations reveal that "as far back as the 3rd or 4th millenium BC and probably much earlier still, India was in possession of a highly developed civilization with large and populous cities, well built houses, temples and public buildings of brick and many other amenities enjoyed as that period by the peoples of Mesopotamia and Egypt". The other source of advanced culture was the Aryans, who came into India from the northwest around 2000 BC They were mostly agricultural and pastoral people who understood the principles of irrigation and manuring and used the animal-drawn plough. After arriving in India they made additional acquisitions, the most important of which was alphabetic writing borrowed from Semitic sources about 800 BC and iron, acquired even earlier. So in India some three to seven thousand years ago there were peoples possessing a technology sufficient advanced to support a dense population; and they encountered in the soil and climate of India favorable conditions for the application of this technology.</p>
+    <p>The earliest literature, the Rigveda, makes it 'clear that population was scanty and spread over wide areas' in small villages, the Brahmana literature around 800-600 BC reveals that some of the villages had grown into towns and capitals with an urban mode of life.</p>
+    <p>The Buddhist literature indicates that between the 7th & 4th centuries BC the economy of India was comparable to that of the later middle ages in Europe. Crafts and commerce were flourishing and were highly organised. In an ordinary town there used to live 30 to 1000 families and about 20 such cities existed in Northern India.</p>
+    <p>The existence of dense population was confirmed by Alexander's army, which invaded India in 327-26 BC The records of Chandra Gupta (321-297 BC) show that there was a standing army of 700,000 men, the maintenance of which must have required a substantial population. Under Ashoka (274-236 BC) the Indian civilization reached to a very high point, based on efficient administration, the use of written commands, and abundant commerce etc.</p>
+    <p>From the above it can safely be concluded that before the Christian era India had a substantial population. Attempts were also made to collect the population data from very early times. The celebrated 'Arthashastra', the Principles of Government, evolved by one of the greatest geniuses of political administration, Kautilya during the days of Mauryas in the third BC, prescribed the collection of population statistics as a measure of state policy for the purpose of taxation. It contains a detailed description of methods of conducting population, economic and agricultural censuses. During the Moghul period extensive records were used to be maintained of land, production, population, famines, etc. During the time of Akbar the Great, another bright period in Indian history, the administration report known as the Ain-i-Akbari included comprehensive data pertaining to population, industry, wealth, and many other characteristics.</p>
+    <p>However the population counts, the importance of which was so well recognised in the ancient days of good Government was neglected during the medieval period when the history of the country was also somewhat disturbed. But again with the system of modern government developing, the need for a fairly accurate account of the population was felt.</p>
+    <p>For obvious reasons, such as defence, collection of revenues and taxes and employment of population in profitable trades and services, the East India Company was anxious, soon after the Restoration in England, to obtain reliable estimates of population in its Indian settlements. Moreland, the famous historian estimated the total number of Indians in 1600. For numerical basis of calculation he based his studies, in the south, on the strength of the armed forces and in the north on the land under cultivation on both of which subjects contemporary figures were available. Indirect estimates had been made, for example, of Fort St. George, Madras, for 1639 and 1648 by comparing revenues in 1639 and 1648, and for 1646 by adding reported famine deaths of 1647 to the estimate of 1648. Captain Thomas Bowrey who arrived in Madras in 1669 made an estimate of the Fort in 1670. A Dr. John Fryer was appointed surgeon for duty at Bombay at the end of 1672 shortly after he had taken the degree of M.B. at Cambridge. He was evidently expected to make statistical enquiries, for his estimates of Masulipattam, Fort St. George, Madras and Bombay. Inquiries in the 17th century like Sir William Langhorn's, Captain Willshaw's or Elihu Yale's, were in the nature of deductions based on items like revenue or quit-rent. A Census is mentioned having been taken in 1716 of Bombay, probably embracing only the Fort and a portion of the Island. The unsettled condition of the country, following the disintegration of the Moghul empire, did not offer favorable conditions for systematic estimates of population. An estimate made of the company's possessions as late as the 1780's was discounted by H.T. Colebrooke. In 1798 the Collectors of Bengal and Bihar districts furnished grounds for estimating 22 millions, but Sir William Jones, the great Orientalist, in his preface to the translation of Al Sirajiyah, hinted at a higher figure. H.T. Colebrooke, in Chapter II devoted to 'population' of his Remarks on the Husbandry and Internal Commerce of Bengal (1794) has gone on record as a pioneer in the application of sample surveys when he observed, "First-An actual assessment (the result of an official enquiry in the province of Puriniya) found 80,914 husbandmen holding leases, and 22,324 artificers paying ground rent, in 2,784 villages (mauzas) upon 2,531 square miles. Allowing five to a family this gives more than 203 to a square mile; and for the whole of the Dewani provinces, at that proportion, it gives a population of 30,291,051; or including Benares, 32,987,500; since the area of Bengal and Bihar is 149,217 square miles, and, with Benares, not less than 162,500. But it must be remembered..." with which he goes on to make meticulous reservations, for and against both lower and higher figures, which set up his methodology as a model for Dr. Francis Buchanan-Hamilton to copy in 1808, when he began his celebrated statistical survey of districts of Bengal and Bihar.</p>
+    <p>Sir James Renell had in the meantime completed his stupendous surveys, which helped to relate population to defined territories. Regretting that 'in India, no bills of mortality, nor registers of births, marriages and burials, afford data for calculation', H.T. Colebrooke built up an ingenious system of self-checking inferences based variously on area, density, sample counts, persons per household leases, ground rent, land under cultivation, area under each tillage, rent-rolls, and the yield and consumption of articles like cereals, pulses and salt. Buchanan-Hamilton applied Colebrooke's method and in several cases improved upon it by resorting to extensive sample counts-his empirical way of discriminating between samples is most instructive-and his accounts of the northern districts of Bengal contain some of the most reliable population estimates for the first two decades of the nineteenth century. Equally penetrating and valid are his comments "On the population of the district and the causes which operate on its increase or diminution."</p>
+    <p>Meanwhile, England had begun her Census series in 1801 and the parliament was anxious to ascertain the populations of dependencies. It took some time to plan and carry out systematic censuses, but the counts taken between 1820 and 1830, even though they do not satisfy the requirements of a modern census, were some of the best estimates that any country could have under comparable circumstances. Some of the finest are Ward and Conner's Memoir of the Survey of the Travancore and Cochin States (1816-20), Richard Jenkin's Report on the Province of Malwa and Adjoining Districts (1822), Thomas Marshall's Pergunnahs of Southern Mahratta Country (1822), W.H. Syke's returns on the Collectorate of Khandesh (1827), D.A. Blane's statistical reports on the districts of the province of Kattywar (1831), and R. Montgomery Martin's compilation, Statistics of the colonies of the British Empire (1839). It may be mentioned in passing that Montgomery Martin obtained corroboration of the estimate made in 1822 by Henry Shakespeare of the Lower Provinces of Bengal Presidency from Dwarakanaut Tagore, Rabindranath Tagore's grandfather:
+
+
+'I obtained it in India from Dwarakanaut Tagore, a Hindoo of an enlarged mind, a most generous disposition, and a truly British spirit. Dwarakanaut Tagore was then at the head of the salt and opium department at Calcutta, and had perhaps the best means of judging as to its correctness of any man in India; he considered it as a fair estimate for 1820 or 1822.'</p>
+<p> Of the greatest technical and methodological interest by far of this period are 'the censuses' made of the town of Allahabad (1824) and the city of Benares (1827-28) by the great James Prinsep, FRS, and of the city of Dacca (1830) by Henry Walters. Walter's census was perhaps the first complete census of an Indian city, which classified the population by sex and broad-age-groups, the houses and structures by building characteristics, storeys, other amenities, lodgers and inmates, and the population again by as many as 132 caste-occupations.</p>
+<p>The second census of Fort St. George Presidency was taken in 1836 -37 and it was not until a decade later, that is, in 1849 that the Government of India asked the local governments to establish, by means of their revenue officials, quinquennial returns of population. This "inaugurated (in Madras) a system of periodical stock-taking of the people, which continued down to the time when the Imperial Census was ordered. The first of these returns was taken during the official year 1851-52, the second in 1856-57, the third in 1861-62 and the fourth and last in 1866-67. The quinquennial Census of 1871-72 was merged in the Imperial Census of 1871." "Thus", continues Dr. W.R. Cornish, FRCS, Superintendent of Census Operations, Madras, 1871 in page 3 of Volume 1 of his Report, "It will be seen that within a period of twenty years the population of this Presidency has been counted, more or less efficiently on five occasions, and it becomes no cause for surprise that the fifth counting should have involved no more political anxiety to the government than any of the former enumerations. As remarked by the Madras Government, 'There is nothing novel in the ideal of a Census in this Presidency, and there is no reason to anticipate any difficulty in carrying out the wishes of the Government of India.'</p>
+<p>The northern provinces were not so fortunate. The North-Western provinces took their census in 1852 under G.J. Christian, and it is interesting to note that J.D. Sim's Scheme of quinquennial censuses for Madras was based on the North-Western Provinces' scheme of 1850. The N.W.P. Census of 1852 'was a regular house to house numbering of all the people in the Province at one fixed time - viz., the night of the 31st December, 1852'.</p>
+<p>Under Statistical Despatch No. 2 of 23 July, received from the Home Government, in the year 1856, the Government of India had entered upon a consideration of the means by which a general Census of the population of India might be taken in 1861. But the undertaking was postponed in 1859 in consequence of the Mutinies. In the North-Western Provinces, however, a census was conducted on 10 January, 1865 by W. C. Plowden on 'the principle that the population should be determined by an actual house to house enumeration to be made on the same day throughout the province, distinguishing the sexes, the two great creeds, and classifying the people according as they followed agricultural or non-agricultural occupations, the different occupations and trades of the people, and their various castes'. The census was also required to collect information on 'the settlement of the several prevailing castes in the different parts of the country, their origin, and the manner in which the subsidiary castes had separated themselves from the parent stock.' It was also the first census to attempt a detailed age classification of the population. A similar census of the Central Provinces was taken in November, 1866 followed by one of Berar in 1867. A census of the population of the Punjab Territories taken in January, 1855 was followed by another in January, 1868, while a census of Oudh was taken in 1869. Censuses of the cities of Madras, Bombay and Calcutta had, in the meantime been taken in 1863, 1864, and 1866 respectively.</p>
+<p>Statistical organisation moved fast at the close of this decade under the leadership of Lord Mayo, Governor General. W.W. Hunter was appointed Director General of Statistical Survey in 1869. An experimental census of the Lower Provinces of Bengal was organised in 1869 by H. Beverley, Registrar General. In 1865 the Government of India and the Home Government had agreed upon the principle that a general population census would be taken in 1871. Model census schedules and questionnaires had already been patiently worked out by W.C. Plowden in 1865. The years 1867-72 were spent in taking a census by the actual counting of heads in as much of the country as was practicable. This series, commonly known as the Census of 1872, was not a synchronous project, nor did it cover all territory possessed or controlled by the British. Though based on uniform schedules it was not centrally supervised, moderated or compiled. But it was inspired by modern concepts, marked an auspicious beginning, and contained the rudiments of all basic demographic, social and economic tables. The undertaking stimulated the introduction into the Statue Book of the Bengal Births and Deaths Registration Act of 1873, to be followed later by the Births, Deaths and Marriages Registration Act of 1886 which would henceforth provide 'data for calculation', the lack of which H.T. Colebrooke had regretted in 1794.</p>
+<p>The problems of coverage and cartography that the 1872 group of censuses had presented were ably followed up by W.W. Hunter's Statistical Survey and the Survey of India, so that the Census of 1881 taken by W.C. Plowden, Census Commissioner for India, was a great step forward toward a modern synchronous and comprehensive operation,in which much effort was spent not only on more complete coverage but on classification of demographic, economic and social characteristics. The Census stimulated for over eighty years on of the most thorough-going inquiries into social structure ever to be conducted in any part of the world, while, it was responsible for the great Linguistic Survey of India, another unique inquiry, again, for any part of the world.</p>
+<p>The first complete census of population was, however, conducted in 1881, on a unifrom basis throughout India providing the most complete and continuous demographic record for any comparable population. Since then the Census is being regularly conducted after every ten years. These censuses have collected information on the distribution of population, with respect to its density, physical groups, urban and rural distribution, housing condition, migration, occupation, racial distribution, literacy, religion, physical deformities, sex, civil condition etc.</p>
+<p>Contrary to uninformed opinion, which seems to imagine that the early Censuses were little concerned with economic information, the 1872 Census of Bombay Presidency made an alphabetical classification of 376 occupations. The 1881 All India Census adopted 6 classes, 18 orders, 75 sub-orders and 480 groups of occupations, while 1891 adopted 478 occupations divided into 7 classes, 24 orders and 77 Sub-order. Even this was improved upon in 1901 by 521 occupations divided into 8 classes, 24 orders and 79 sub-orders, which can still serve as a model for countries with insufficiently developed economies and a preponderance of rural skills. The 1901 classification also made an exhaustive analysis of caste-occupations. In fact, the classification developed in 1901 was over-shadowed, not without some loss of definition of local realities, by the requirements of international comparability in 1911.</p>
+<p> Much has been made of the Indian Census's preoccupation with castes and tribes and cognate anthropological inquiries over the decades. While indeed a very large and valuable body of anthropological literature has grown round the Indian Census, it needs to be emphasised that the Indian Census has always been primarily concerned with its legitimate tasks of demographic analysis and economic classification, of 'mathematical manipulation' and even 'statistical ingenuity', the apparent lack of which was the subject of a regret expressed by Kingslay Davis, a modern demographic scholar of India and Pakistan. For early work on age in India, such efforts as J.A. Baines's Age Distribution in his report of Bombay and Sind 1881, L.Mc. Liver's dissertation on the same theme in his report for Madras, 1881, Gabriel Stokes's Native Life Tables for the Madras Presidency, 1881, W.W. Drew's note on age distribution in his Report on Bombay, 1891, G.H. Stuart's Life Table for the City of Madras, 1891, M.M. Khan's Life Tables for the Nizam's Dominions, 1891, V.N. Narasimmiyengar's note on age statistics and sex ratio in his report of Mysore, 1891, not to speak of a host of other works in later censuses, would do honour to demographic analysis in any country. What is more, they brought to the world of mathematical manipulation, much broad understanding and empirical knowledge. One is liable to ignore the fact that in the preparation of age and life tables, India has always been fortunate in securing the services of eminent actuaries, beginning with Sir George F. Hardy, and this long line of actuarial investigations since 1881 has presented the World with valuable devices for the construction of age and life tables out of inadequate and often very unsatisfactory material. A third important feature of past censuses is also insufficiently appreciated. The Indian Census has never been bound hand-and-foot to tradition, never taken shelter 'behind an official wall of infallibility', but has broken new ground at every census without losing comparability with previous censuses. Thus the Indian Census has always paid a good deal of attention to the changing scene and the requirements of Government while trying to keep pace with contemporary and advanced census quests. In short, it has never rested on its oars, but represents 'the most fruitful single source of information about the country'.</p>
+<p>The Government emphasised the importance of population data and set up a Population Data Committee in 1944 to examine and advise the Government of India on the available data relating to growth of population. This committee comprised of Mr. W.M. Yeatts, the Census Commissioner of India in 1941 as Chairman and Sir Theodore Gregory, Professor P.C. Mahalnobis, Professor K.B. Madhava and Dr. K.C. K.E. Raja as members. The Committee paid special emphasis to the statistical problems relating to the age tabulation of the 1941 census which could not be completed because of financial stringency caused by the Second World War, and also made recommendations for the use of sampling methods for the estimation of vital statistics rates. In particular, they pointed out the use which could be made of the household lists prepared at the census as a sampling frame for obtaining demographic data and recommended their safe keeping.</p>
+<p>The Health Survey and Development Committee popularly referred to as the Bhore Committee constituted for making plans for post-war developments in the health fields made a comprehensive review of the field of population from the quantitative and qualitative points of view. It suggested the appointment of Registrar General of Vital and Population Statistics at the centre and Provincial Superintendents in the Provinces with a view to improve the quality of population statistics. One of its chief recommendations was that "the population problem should be the subject of continuous study."</p>
+<p> Census Act was passed in 1948 and was placed on the Statute Book. Text of the Act is given in an annexure at the end of this chapter.</p>
+<p>In 1949, the Government of India decided to initiate steps for improvement of Registration of Vital Statistics and further decided to establish a single organisation at the Centre in the Ministry of Home Affairs under the Registrar General and ex-officio Census Commissioner for India to deal with Vital Statistics and Census.</p>
+<p>Till 1951 the Census Organisation in India was functioning like the phoenix, that is the Organisation came into being just on the eve of the census and wound up as soon as census operations were over within two or three years of its creation. With the establishing of a permanent nucleus at the centre, it has been possible to have continuing Census Organisation during the inter-censal period. Concentrated steps were taken to improve registration of Births and Deaths in the country to yield reliable vital rates which are so essential for present day planning.</p>
+<p>The first census after Independence was taken in 1951. The report of 1951 census by the Census Commissioner for India was a complete departure from the pattern of previous census reports. This report attempted to interpret the past changes in the size and structure of India's population and to point out their implications for the level of living of the population. The report also made a plea for a reduction in the birth rate of the country. The 1951 census also attempted for the first time in the history of Indian census to make an assessment of the accuracy of the census count by a re-check in the field.</p>
+<p>The demands of the various Government Departments, Planning Commission and various Demographic Bodies for the collection of the detailed statistics on population necessitated the enlargement of the 1961 census questionnaire and a number of cross tabulations of data. As many as 1400 publications were planned and printed. A novel feature of 1961 census was the undertaking of a large number of ancillary studies relating to rural craft, fairs and festivals and ethnographic surveys. The Census Organisation, therefore, became the repository of a wealth of sociological information relating to the country. Special Socio-economic Surveys were undertaken in a large number of villages. For the first time in the history of Census of India, a Census Atlas was planned at the State level as well as at India level. An attempt was also made for the mechanical tabulation of some of the data and consequently a moderate complement of mechanical data equipments like, Key punches, Verifiers, Sorters, Tabulators, Reproducers were obtained and household schedules of the 1961 census were tabulated on the mechanical equipments.</p>
+<p>The schedules of 1971 Census were further modified to suit the needs of the Govt., Planning Commission, various Demographic Bodies and Scholars. The new features of 1971 Census were (i) an attempt was made to collect data on current fertility, (ii) migrational particulars with reference to place of last residence were collected which yielded valuable and realistic data on internal migration, (iii) considerable departure was made in respect of economic questions. The main activity of a person was ascertained according as he spent his time basically as a worker producing goods and services or as a non-worker. A new concept of 'Standard urban Area' was developed for the tabulation of certain urban data. Encouraged with the experience of 1961 Census it was again proposed to have a number of studies ancillary to 1971 Census. It was proposed to have a restudy of a number of villages and also to have intensive studies of about 200 towns and ethnographic studies of selected communities. Besides there would be one special study at the choice of the Director of Census Operations in each State.</p>
+<p>The results of each census have been published in great detail. The general reports which summarise and analyse the results have often been exceptionally scholarly. It was only in 1941 that the census publications could not be as complete as usual because of the limitations imposed by the Second World War. The Indian Censuses were remarkable not only for the information they reveal but for the special obstacles they had had to overcome. Imagine a massive, diversified sub-continent with hundreds of millions of people nearly all of whom are illiterate, most of them rural and some isolated in jungles or mountains, some harbouring superstitions inimicals to census co-operation, some split by political and religious rift and some pure savages of stone age. One can imagine all this and the difficulty of taking a census becomes apparent.</p>
+<p> Modern techniques of postal enumeration cannot be used and the time-tested slow but sure method of each individual being enumerated separately is all that is possible. This involves the recruitment and training of a vast army of enumerators whose number can only be reckoned in thousands. The social and cultural complexities create special problems.</p>
+<p> The Indian Census has not been a mere statistical operation. Demographic data have not been presented in a dry form but interpreted and analysed in an interesting manner. The General Reports of the Census, whether that of the country as a whole or of the States, have been products of scholarship. A large number of experts have been associated with the census and their analysis of data has often been the only authentic material on socio-economic conditions.</p>
+    <p>The Indian Census has been fortunate in having had at its helm extremely devoted civil servants and scholars. Sir William W. Hunter, historian directed the gigantic statistical survey of India made in 1869-1881 and published among other books, the famous Annals of Rural Bengal (three Volumes) and A History of British India (two Volumes). Sir George Grierson, who wrote the chapter on Indian languages for the 1901 census report, directed the monumental Linguistic Survey of India; Sir Herbert Risley, who was Census Commissioner for India in 1901, wrote the treatise 'The People of India'; Sir Edward Gait, who was in charge of the Census in 1901, was an authority on caste; L.S.S. O'Malley and J.H. Hutton, both of whom wrote fine studies of Indian administration and castes, were closely associated with the census. The general report of 1951 by R.A.Gopalaswamy was a landmark in that it was a forthright plea for a population policy, while the "Levels of Development" of 1961 by A. Mitra was an excellent regional analysis for planning.</p>
+<center>
+<table>
+    <tr>
+        <td><a href="index.html"><button class="button"><< Go Back</button></a></td>
+    </tr>
+</table>
+</center>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Census of India
+# Online Census of India
 ___
 
 ### Introduction to Project :-
@@ -19,7 +19,7 @@ and just righthand side of that is given the links for various social networking
 *	Meet the developers section contains all the details of us, i.e. the one who made the project.<br>
 *	Submit your form is the section in which one who wish to submit his/her details along with the family member details can do so and all the details will be saved in the database.<br>
 
-# Software Requirements / Specifications:-
+### Software Requirements / Specifications:-
 ___
 1.	XAMPP Server<br>
 2.	Web Browser (Chrome)<br>
@@ -28,8 +28,8 @@ ___
 5.	MS WORD<br>
 6.	Notepad<br>
 
- 
-# Tools & Technology Used :-
+
+### Tools & Technology Used :-
 ___
 
 *	HTML :- Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.<br>
@@ -42,7 +42,7 @@ ___
 *	XAMPP :- XAMPP is a free and open source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages. XAMPP stands for Cross-Platform (X), Apache (A), MariaDB (M), PHP (P) and Perl (P).<br>
 
 
-# Results and Discussion :-
+### Results and Discussion :-
 ___
 
 *	We, Saket Karn & Akash Ranjan, students of Chandigarh University were given a project on Web Development as our Summer Training.<br>
@@ -55,17 +55,17 @@ ___
 *	According to me: you don’t in any way need to be a HTML and CSS expert before you can start building things, or moving on to learning a server side language. 0.<br>
 *	You don’t have to spend months and months doing tutorial after tutorial. Once you have the fundamentals down, you can learn as you build.<br>
 
-Conclusion and Future Scope :-
+### Conclusion and Future Scope :-
+___
 *	Doing this project was a real fun and thrilling task. This project helped us to make a website and how to fetch and insert details to and from website to database which will really be very helpful for us in our future. It really taught us so many things which we can’t count on our fingers. We would like to thank our teachers for guiding us all the time and the University for providing an opportunity to learn these so much interesting things which we will never be able to forget even if we try to.<br>
 *	With new techniques, technologies and movements constantly arriving on the scene, our sense of where things are going is more uncertain than ever. And so we wanted to investigate what the landscape of web design might look like in another 20 years or so.<br>
 *	As we move towards the mid-21st century, it's indisputable that web design is going to become increasingly important. As people live more and more of their lives online, digital user experiences will be the rock on which almost every big organisation is built. But there's one slight problem."There's a demand for good software but broadly speaking, there aren't enough good developers to build those things," says Craig Frost, designer at Pusher. "And even if there were, infrastructure is something that takes lots and lots of time and attention – time that could be better spent on building features for customers."<br>
 *	But here's the good news: to plug that gap, we're currently seeing an explosion in developer tools.<br>
 *	Pusher's tools, for example, make it easy to build real-time features into applications, so they update automatically without users having to refresh the browser.<br>
 *	Building websites used to be slow, expensive, and hard to maintain. And it also meant you had to have a lot of skills, a lot of people. Now we're putting the power back into the product builders' hands. Which means you can spend less time maintaining these applications, more on customer needs. Having conversations with them, building things they need." And how should we discover what users need? Funnily enough, that's something that's changing too…<br>
-*	Because of the new popularity of UI animation, it is creating a new demand for skilled practitioners, he adds. "You can now specialise in animation on the web, and it's becoming more recognised as an art in itself. We live in a digital world where people scroll through 300ft of content a day, so the more and more we progress in technology, the more this is going to keep escalating.<br>
-
- 
-# References :-
+*	Because of the new popularity of UI animation, it is creating a new demand for skilled practitioners, he adds. "You can now specialise in animation on the web, and it's becoming more recognised as an art in itself. We live in a digital world where people scroll through 300ft of content a day, so the more and more we progress in technology, the more this is going to keep escalating.
+### References :-
+___
 
 
 *	http://w3schools.com<br>
@@ -76,6 +76,6 @@ Conclusion and Future Scope :-
 *	http://css-trick.com<br>
 *	http://developer.mozilla.org<br>
 
-# Contributor
+### Contributor
 ___
-
+* [Saket Karn](https://github.com/saketkarn)
