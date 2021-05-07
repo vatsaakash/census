@@ -1,10 +1,11 @@
 # Online Census of India
+
 ## Introduction to Project
 
-*  A project was assigned to the students of Chandigarh University as a Summer Training Program
-*  We were assigned the topic of Census of India to do as our project.
-*	 It was really a very interesting topic as while making the project we had gone through many ups and downs while completing the project.
-*	 The project starts form the webpage in which you’ll see the logo of of Indian Government just at the right hand side it’s written as Office of the Registrar General & Census Commissioner, Government of India
+*   A project was assigned to the students of Chandigarh University as a Summer Training Program
+*   We were assigned the topic of Census of India to do as our project.
+*   It was really a very interesting topic as while making the project we had gone through many ups and downs while completing the project.
+*   The project starts form the webpage in which you’ll see the logo of of Indian Government just at the right hand side it’s written as Office of the Registrar General & Census Commissioner, Government of India
 and just right-hand side of that is given the links for various social networking sites of Census of India like of Facebook, Twitter and Youtube.
 *	 Below all these, navigation menu is provided with various options like Home, About Us, Census Organisation, Submit Your Form, Acts and Rules, Current Population of World, Contact Us, Meet the Developers and many more.
 *	 About Us section contains all the information related to Census of India.
