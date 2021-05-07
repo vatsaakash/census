@@ -1,10 +1,8 @@
 # Online Census of India
+## Introduction to Project :-
 ___
-
-### Introduction to Project :-
-___
-*	A project was assigned to the students of Chandigarh University as a Summer Training Program.<br>
-*	We were assigned the topic of Census of India to do as our project.<br>
+* A project was assigned to the students of Chandigarh University as a Summer Training Program<br>
+* We were assigned the topic of Census of India to do as our project.<br>
 *	It was really a very interesting topic as while making the project we had gone through many ups and downs while completing the project.<br>
 *	The project starts form the webpage in which you’ll see the logo of of Indian Government just at the right hand side it’s written as <br>
 Office of the Registrar General & Census Commissioner, India<br>
@@ -66,8 +64,6 @@ ___
 *	Because of the new popularity of UI animation, it is creating a new demand for skilled practitioners, he adds. "You can now specialise in animation on the web, and it's becoming more recognised as an art in itself. We live in a digital world where people scroll through 300ft of content a day, so the more and more we progress in technology, the more this is going to keep escalating.
 ### References :-
 ___
-
-
 *	http://w3schools.com<br>
 *	http://stackoverflow.com/<br>
 *	http://en.wikipedia.org<br>
